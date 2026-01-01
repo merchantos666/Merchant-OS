@@ -5,5 +5,5 @@ export function getStripeClient() {
   if (!secretKey) {
     throw new Error('STRIPE_SECRET_KEY no configurado')
   }
-  return new Stripe(secretKey, { apiVersion: '2024-06-20' })
+  return new Stripe(secretKey, { apiVersion: '2025-12-15.clover' })
 }
