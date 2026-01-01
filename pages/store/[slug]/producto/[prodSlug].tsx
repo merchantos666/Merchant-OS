@@ -10,6 +10,7 @@ import {
   Container,
   Badge,
   HStack,
+  VStack,
   Icon,
   IconButton,
   Button,
@@ -61,6 +62,7 @@ export default function StoreProductPage({ product, store }: any) {
   const cardBg = useColorModeValue('#0f0f12', '#0f0f12');
   const panelBg = useColorModeValue('white', 'gray.800');
   const brand = { ...defaultBrand, ...(store?.brand || {}) };
+  const textColor = brand.textColor || '#0f172a';
   const footerCopy = brand.footerText || `© ${new Date().getFullYear()} ${store?.name || ''}. Todos los derechos reservados.`;
   const productLayout = brand.layoutProductPage || 'classic';
 

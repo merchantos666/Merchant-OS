@@ -78,10 +78,10 @@ export default function StoreCategory({ store, category, categoriesNav = [] }: a
       return { ...p, price }
     })
     if (term) {
-      list = list.filter((p) => p.name?.toLowerCase().includes(term) || p.description?.toLowerCase().includes(term))
+      list = list.filter((p: any) => p.name?.toLowerCase().includes(term) || p.description?.toLowerCase().includes(term))
     }
-    if (sort === 'price-asc') list = list.sort((a, b) => (a.price || 0) - (b.price || 0))
-    if (sort === 'price-desc') list = list.sort((a, b) => (b.price || 0) - (a.price || 0))
+    if (sort === 'price-asc') list = list.sort((a: any, b: any) => (a.price || 0) - (b.price || 0))
+    if (sort === 'price-desc') list = list.sort((a: any, b: any) => (b.price || 0) - (a.price || 0))
     return list
   }, [products, search, sort])
 

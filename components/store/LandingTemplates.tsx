@@ -1,8 +1,8 @@
-import { Box, Button, Container, Flex, Grid, GridItem, HStack, Image, Stack, Text, VStack, Divider, SimpleGrid, Icon, Badge } from '@chakra-ui/react'
+import { Box, Button, Container, Flex, Grid, GridItem, HStack, Image, Stack, Text, VStack, Divider, SimpleGrid, Badge, InputGroup, Input, InputRightElement, IconButton, InputLeftElement } from '@chakra-ui/react'
 import Link from 'next/link'
 import { BrandConfig } from '@/lib/defaultBrand'
 import { StoreNavbar } from './StoreNavbar'
-import { FiShoppingBag } from 'react-icons/fi'
+import { FiBell, FiGlobe, FiHeart, FiMapPin, FiMenu, FiPhone, FiSearch, FiShoppingBag, FiShoppingCart, FiUser } from 'react-icons/fi'
 
 type LandingProps = {
   brand: BrandConfig

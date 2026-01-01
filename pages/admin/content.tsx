@@ -211,6 +211,10 @@ export default function AdminContentPage() {
     catModal.onClose()
   }
   const deleteCat = async (c: Category) => {
+    if (!store?.id) {
+      toast({ status: 'warning', title: 'Selecciona una tienda para eliminar categorías' })
+      return
+    }
     if (!confirm(`Eliminar categoría ${c.name}?`)) return
     const { error } = await supabase.from('categories').delete().eq('id', c.id).eq('store_id', store.id)
     if (error) return toast({ status: 'error', title: 'No se pudo eliminar' })
@@ -300,6 +304,10 @@ export default function AdminContentPage() {
     setProdStage('success')
   }
   const deleteProd = async (p: any) => {
+    if (!store?.id) {
+      toast({ status: 'warning', title: 'Selecciona una tienda para eliminar productos' })
+      return
+    }
     if (!confirm(`Eliminar producto ${p.name}?`)) return
     await supabase.from('pricing_tiers').delete().eq('product_id', p.id).eq('store_id', store.id)
     const { error } = await supabase.from('products').delete().eq('id', p.id).eq('store_id', store.id)
@@ -387,7 +395,7 @@ export default function AdminContentPage() {
       active="content"
       store={store}
       sessionEmail={session?.user?.email || ''}
-      membershipRole={membershipRole}
+      membershipRole={membershipRole ?? undefined}
       storePlan={storePlan}
       onUpgrade={startCheckout}
       billingLoading={billingLoading}
