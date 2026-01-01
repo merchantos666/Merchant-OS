@@ -1,0 +1,56 @@
+{
+  "name": "Fuegos Artificiales",
+  "description": "Tortas pirotécnicas de alto impacto para shows exteriores",
+  "products": [
+    {
+      "name": "Torta Viva México Lindo",
+      "ignition": "Mecha manual",
+      "shots": 90,
+      "caliber": "20 mm",
+      "prices": [
+        "1 pz – $2,300 c/u"
+      ],
+      "usage": "Para uso exterior +18"
+    },
+    {
+      "name": "Torta Espectacular",
+      "ignition": "Mecha manual",
+      "shots": 100,
+      "caliber": "20 mm",
+      "prices": [
+        "1 pz – $2,700 c/u"
+      ],
+      "usage": "Para uso exterior +18"
+    },
+    {
+      "name": "Torta Épico",
+      "ignition": "Mecha manual",
+      "shots": 173,
+      "caliber": "Mixto",
+      "prices": [
+        "1 pz – $6,000 c/u"
+      ],
+      "usage": "Para uso exterior +18"
+    },
+    {
+      "name": "Torta Máximo",
+      "ignition": "Mecha manual",
+      "shots": 200,
+      "caliber": "Mixto",
+      "prices": [
+        "1 pz – $5,800 c/u"
+      ],
+      "usage": "Para uso exterior +18"
+    },
+    {
+      "name": "Torta Show Bravo",
+      "ignition": "Mecha manual",
+      "shots": 200,
+      "caliber": "20 mm",
+      "prices": [
+        "1 pz – $5,800 c/u"
+      ],
+      "usage": "Para uso exterior +18"
+    }
+  ]
+}

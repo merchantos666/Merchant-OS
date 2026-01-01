@@ -1,0 +1,66 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Media {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  filename    String
+  contentType String
+  size        Int
+  data        Bytes
+  createdAt   DateTime @default(now())
+}
+
+model AdminUser {
+  id                 String    @id @default(auto()) @map("_id") @db.ObjectId
+  username           String    @unique
+  passwordHash       String
+  passwordSalt       String
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+  lastLoginAt        DateTime?
+  isActive           Boolean   @default(true)
+  failedLoginAttempts Int      @default(0)
+  lockoutUntil       DateTime?
+}
+
+model Category {
+  id          String    @id @default(auto()) @map("_id") @db.ObjectId
+  name        String
+  slug        String    @unique
+  description String?
+  imageUrl    String?
+  products    Product[]
+}
+
+model Product {
+  id              String         @id @default(auto()) @map("_id") @db.ObjectId
+  name            String
+  slug            String         @unique
+  description     String?
+  ignitionMethod  String?
+  durationSeconds Int?
+  colorsAvailable String[]
+  videoUrl        String?
+  imageUrl        String?
+  forOutdoorUse   Boolean?
+  ageRestriction  String?
+  categoryId      String         @db.ObjectId
+  category        Category       @relation(fields: [categoryId], references: [id])
+  pricingTiers    PricingTier[]
+  metadata        Json?          // Para campos como caliber, shots, usage
+}
+
+model PricingTier {
+  id         String   @id @default(auto()) @map("_id") @db.ObjectId
+  productId  String   @db.ObjectId
+  minQty     Int?
+  maxQty     Int?
+  price      Float
+  product    Product  @relation(fields: [productId], references: [id])
+}

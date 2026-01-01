@@ -1,0 +1,77 @@
+{
+  "category": {
+    "name": "Luz Fría y Chisperos",
+    "description": "Efectos brillantes y seguros para interior o exterior"
+  },
+  "products": [
+    {
+      "name": "Chispero 3 mts y 15 seg",
+      "description": "Chispero de luz fría con efecto brillante de 3m de altura para interior. Ideal para momentos especiales en bodas, pedidas o eventos al aire libre. ¡Impactante y elegante!",
+      "ignition": "Cerillo electrónico.",
+      "duration": "15 seg",
+      "additionalInfo": "Altura de chispa: 3 mts.",
+      "pricingTiers": [
+        {
+          "quantity": 1,
+          "price": 65
+        }
+      ]
+    },
+    {
+      "name": "Chispero 5 mts y 15 seg",
+      "description": "Chispero de luz fría con efecto brillante de 5m de altura para exterior. Ideal para momentos especiales en bodas, pedidas o eventos al aire libre. ¡Impactante y elegante!",
+      "ignition": "Cerillo electrónico.",
+      "duration": "15 seg",
+      "additionalInfo": "Altura de chispa: 5 mts.",
+      "pricingTiers": [
+        {
+          "quantity": 1,
+          "price": 65
+        }
+      ]
+    },
+    {
+      "name": "Chispero 3 mts y 30 seg",
+      "description": "Chispero de luz fría con efecto brillante de 3m de altura para interior. Ideal para momentos especiales en bodas, pedidas o eventos al aire libre. ¡Impactante y elegante!",
+      "ignition": "Cerillo electrónico.",
+      "duration": "30 seg",
+      "additionalInfo": "Altura de chispa: 3 mts.",
+      "pricingTiers": [
+        {
+          "quantity": 1,
+          "price": 70
+        }
+      ]
+    },
+    {
+      "name": "Vela pastelera",
+      "description": "Vela de chispa para pasteles, botellas o shows en eventos. Ideal para celebraciones en interiores y antros. Efecto visual que hasta 35 segundos.",
+      "ignition": "Con encendedor.",
+      "duration": "35 seg",
+      "additionalInfo": "Altura de chispa: 23 cm.",
+      "pricingTiers": [
+        {
+          "quantity": 1,
+          "price": 25
+        }
+      ]
+    },
+    {
+      "name": "Varita Spark",
+      "description": "Varita de chispas doradas para fotos, videos y momentos especiales. Ideal para bodas, fiestas y sesiones creativas. Fácil de encender, generan un efecto brillante y elegante por varios segundos.",
+      "ignition": "Con encendedor.",
+      "duration": "1 minuto 15 segundos",
+      "additionalInfo": "Tamaño del artículo: 45 cm.",
+      "pricingTiers": [
+        {
+          "quantity": 1,
+          "price": 13
+        },
+        {
+          "quantity": 20,
+          "price": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "name": "Bombas de Humo",
+  "description": "Bombas de humo de una y doble salida en diferentes colores. Ideales para sesiones de fotos, revelaciones de sexo y efectos especiales en eventos.",
+  "products": [
+    {
+      "name": "RDH SMOKE ANILLA",
+      "slug": "rdh-smoke-anilla",
+      "description": "Bomba de humo de una salida. Se activa al jalar un anillo, sin necesidad de encendedor.",
+      "ignitionMethod": "Anillo (sin encendedor)",
+      "durationSeconds": 50,
+      "colorsAvailable": [
+        "Amarillo",
+        "Morado",
+        "Verde",
+        "Naranja",
+        "Blanco",
+        "Rosa",
+        "Azul",
+        "Rojo",
+        "Turquesa"
+      ],
+      "videoUrl": "https://www.youtube.com/shorts/qFHFQj1U68g",
+      "imageUrl": "/productos/rdh-smoke-anilla.jpg",
+      "pricingTiers": [
+        {
+          "minQty": 1,
+          "maxQty": 1,
+          "price": 190
+        },
+        {
+          "minQty": 2,
+          "maxQty": 5,
+          "price": 170
+        },
+        {
+          "minQty": 6,
+          "maxQty": 15,
+          "price": 150
+        },
+        {
+          "minQty": 16,
+          "maxQty": null,
+          "price": 110
+        }
+      ]
+    },
+    {
+      "name": "RDH TWINFLAME",
+      "slug": "rdh-twinflame",
+      "description": "Bomba de humo con doble salida y encendido de mecha. Ideal para fotos, videos o ambientar eventos al aire libre.",
+      "ignitionMethod": "Mecha manual",
+      "durationSeconds": 35,
+      "colorsAvailable": [
+        "Amarillo",
+        "Morado",
+        "Verde",
+        "Naranja",
+        "Blanco",
+        "Rosa",
+        "Azul",
+        "Rojo",
+        "Turquesa"
+      ],
+      "videoUrl": null,
+      "imageUrl": "/productos/rdh-twinflame.jpg",
+      "pricingTiers": [
+        {
+          "minQty": 1,
+          "maxQty": 1,
+          "price": 190
+        },
+        {
+          "minQty": 2,
+          "maxQty": 5,
+          "price": 170
+        },
+        {
+          "minQty": 6,
+          "maxQty": 15,
+          "price": 150
+        },
+        {
+          "minQty": 16,
+          "maxQty": null,
+          "price": 110
+        }
+      ]
+    },
+    {
+      "name": "RDH REVEAL35",
+      "slug": "rdh-reveal35",
+      "description": "Bomba de humo de una salida, ideal para revelaciones de sexo. Se enciende con mecha manual.",
+      "ignitionMethod": "Mecha manual",
+      "durationSeconds": 35,
+      "colorsAvailable": [
+        "Azul",
+        "Rosa"
+      ],
+      "videoUrl": "https://www.youtube.com/watch?v=6LUmoTXMndI",
+      "imageUrl": "/productos/rdh-reveal35.jpg",
+      "pricingTiers": [
+        {
+          "minQty": 1,
+          "maxQty": 15,
+          "price": 170
+        },
+        {
+          "minQty": 16,
+          "maxQty": null,
+          "price": 120
+        }
+      ]
+    },
+    {
+      "name": "RDH TWINFLOW CE",
+      "slug": "rdh-twinflow-ce",
+      "description": "Bomba de humo con doble salida y encendido por cerillo electrónico. Ideal para revelaciones de sexo (requiere detonador no incluido).",
+      "ignitionMethod": "Cerillo electrónico",
+      "durationSeconds": 35,
+      "colorsAvailable": [
+        "Azul",
+        "Rosa"
+      ],
+      "videoUrl": "https://www.youtube.com/shorts/AfFXYI6Yrr0",
+      "imageUrl": "/productos/rdh-twinflow-ce.jpg",
+      "pricingTiers": [
+        {
+          "minQty": 1,
+          "maxQty": 15,
+          "price": 220
+        },
+        {
+          "minQty": 16,
+          "maxQty": null,
+          "price": 140
+        }
+      ]
+    },
+    {
+      "name": "RDH SMOKE CE",
+      "slug": "rdh-smoke-ce",
+      "description": "Bomba de humo de una salida con cerillo electrónico. Ideal para revelaciones de sexo. Se activa con control remoto (no incluido).",
+      "ignitionMethod": "Cerillo electrónico",
+      "durationSeconds": 50,
+      "colorsAvailable": [
+        "Azul",
+        "Rosa"
+      ],
+      "videoUrl": "https://www.youtube.com/shorts/S5ZNhPRXHp4",
+      "imageUrl": "/productos/rdh-smoke-ce.jpg",
+      "pricingTiers": [
+        {
+          "minQty": 1,
+          "maxQty": 15,
+          "price": 220
+        },
+        {
+          "minQty": 16,
+          "maxQty": null,
+          "price": 140
+        }
+      ]
+    }
+  ]
+}

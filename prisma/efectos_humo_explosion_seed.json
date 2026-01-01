@@ -1,0 +1,144 @@
+[
+  {
+    "name": "Batería de Humo 25 Disparos",
+    "description": "Lanza 25 disparos de humo y chispas de alta intensidad. Ideal para shows o revelaciones de género.",
+    "ignition": "Cerillo eléctrico y mecha",
+    "duration": null,
+    "colors": [
+      "Azul",
+      "Rosa",
+      "Naranja",
+      "Morado",
+      "Verde",
+      "Blanco",
+      "Rojo"
+    ],
+    "pricingTiers": [
+      {
+        "quantity": "1-10",
+        "price": 250
+      },
+      {
+        "quantity": "11-16",
+        "price": 190
+      }
+    ]
+  },
+  {
+    "name": "Batería de Humo 9 Disparos",
+    "description": "Lanza 9 disparos de humo intenso en un solo color por batería. Ideal para shows o revelaciones.",
+    "ignition": "Cerillo eléctrico y mecha",
+    "duration": null,
+    "colors": [
+      "Azul",
+      "Rosa"
+    ],
+    "pricingTiers": [
+      {
+        "quantity": "1-10",
+        "price": 225
+      },
+      {
+        "quantity": "11-16",
+        "price": 170
+      }
+    ]
+  },
+  {
+    "name": "Batería de Humo en Abanico 10 Disparos",
+    "description": "Disparo 10 tiros de humo y chispas en abanico. Efecto ideal para revelaciones o eventos de día o noche.",
+    "ignition": "Cerillo eléctrico y mecha",
+    "duration": null,
+    "colors": [
+      "Azul",
+      "Rosa"
+    ],
+    "pricingTiers": [
+      {
+        "quantity": "1-10",
+        "price": 800
+      },
+      {
+        "quantity": "11-16",
+        "price": 720
+      }
+    ]
+  },
+  {
+    "name": "Batería de Humo en Abanico 10 Disparos (Multicolor)",
+    "description": "Dispara 10 tiros en abanico con mezcla de 5 colores por disparo. Ideal para bodas y eventos.",
+    "ignition": "Cerillo eléctrico y mecha",
+    "duration": null,
+    "colors": [
+      "Multicolor"
+    ],
+    "pricingTiers": [
+      {
+        "quantity": "1-10",
+        "price": 900
+      },
+      {
+        "quantity": "11-16",
+        "price": 800
+      }
+    ]
+  },
+  {
+    "name": "Flash Smoke con Serpentina",
+    "description": "Disparo único de humo y serpentina. Ideal para un toque especial en revelación o evento al aire libre.",
+    "ignition": "Cerillo eléctrico",
+    "duration": null,
+    "colors": [
+      "Azul",
+      "Rosa",
+      "Rojo",
+      "Morado",
+      "Verde",
+      "Amarillo",
+      "Turquesa",
+      "Naranja"
+    ],
+    "pricingTiers": [
+      {
+        "quantity": "1-15",
+        "price": 230
+      },
+      {
+        "quantity": "16-36",
+        "price": 190
+      }
+    ]
+  },
+  {
+    "name": "Extintor Revelación de Sexo",
+    "description": "Extintor profesional que lanza una nube de polvo holy. Ideal para revelaciones de sexo.",
+    "ignition": "Presionar el gatillo para liberar el contenido",
+    "duration": null,
+    "colors": [
+      "Azul",
+      "Rosa"
+    ],
+    "pricingTiers": [
+      {
+        "quantity": "1",
+        "price": 1200
+      }
+    ]
+  },
+  {
+    "name": "Balón Fútbol Revelación",
+    "description": "Balón de fútbol relleno de polvo holy. Explota en una nube azul o rosa al patear.",
+    "ignition": "Patear el balón con fuerza",
+    "duration": null,
+    "colors": [
+      "Azul",
+      "Rosa"
+    ],
+    "pricingTiers": [
+      {
+        "quantity": "1",
+        "price": 400
+      }
+    ]
+  }
+]
